@@ -16,3 +16,5 @@ function addAndRemoveClass(divElement, addClas, removeClas){
     }
     divElemente.addEventListener('click', addRemove, false);
 }
+
+addAndRemoveClass("#divElement", "addClas", "removeClas");
